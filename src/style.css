@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header img{
+    width: 7rem;
+    border-radius: 50%;
+}
+
+.nav-bar{
+    margin-top: 15px;
+}
+.icon-link{
+    width: 30px;
+    margin-right: 90px;
+}
+.facebook{
+    width: 30px;
+    height: 30px;
+}
+
+.carousel-item {
+    height: 500px;
+}
+.carousel-item img{
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    background: linear-gradient( top transparent rgb(31,31,31));
+
+}
+.container-card1 {
+   position: relative;
+   left: 32rem;
+   top: 0.1rem;
+}
+
+
+.text-bg-light{
+  
+    height: 400px;
+    width: 100%;
+}
+
+.container-oferta {
+    height: 300px; 
+    position: relative;
+    top: 1px;   
+    right:auto;
+  
+}
+
+.container-oferta img{
+    height: 400px;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+   
+  
+}
+
+.footer{
+    display:flex;
+    background-color: #000;
+    color:#c6c1c1;
+}
+    .endereco{
+        width: 17rem;
+        margin: 1rem;
+        padding: 1rem;
+    }
+.endereco_sede{
+    color:#c6c1c1;
+    padding: 2rem;
+}    
+.horarios{
+    color:#c6c1c1;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+
+ .footer p{ 
+    font-size: 0.60rem;
+}
+.footer h3{
+    font-size: .81rem;
+} 
+
+.horarios li{
+list-style: none;
+font-size: .59rem;
+}
+.horarios ul{
+    padding-left: 0rem;
+}
+.seta_home{
+   
+        position: absolute;
+        right: 20px;
+        top: 193rem;
+      }
+.border_fine{
+    border: 0.5px solid #fff;
+    width: 60rem;
+    position: absolute;
+    left: 245px;
+
+    top: 204rem;
+}
+.redes_sociais{
+position: absolute;
+left: 50%;
+top: 204rem;
+}
